@@ -6,7 +6,7 @@ import dam23.javadoc.Funciones;
 public class Main {
     /**
      * Número de Trabajadores con sueldo entre 1000 y 1750
-     * Version Final 1.1
+     * Version Final 1.2
      */
     static Integer contador1750 = 0;
     /**
