@@ -1,6 +1,12 @@
+package dam23.javadoc;
+
+import dam23.datos.Trabajador;
+import dam23.javadoc.Funciones;
+
 public class Main {
     /**
      * Número de Trabajadores con sueldo entre 1000 y 1750
+     * Version Final
      */
     static Integer contador1750 = 0;
     /**
@@ -18,7 +24,7 @@ public class Main {
      */
     public static void main(String[] args) {
         Trabajador auxTrabajador;
-        // Funciones obxFunciones = new Funciones();
+        // dam23.javadoc.Funciones obxFunciones = new dam23.javadoc.Funciones();
         do {
             auxTrabajador = Funciones.darAltaTrabajador();
             actualizarContadores(auxTrabajador);
